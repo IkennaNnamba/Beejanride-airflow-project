@@ -1,0 +1,26 @@
+# Airflow runtime files
+logs/
+config/
+plugins/
+
+# Environment variables (contains sensitive credentials)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Unrelated DAG projects
+dags/commit_or_bounce/
+dags/print_context.py
+dags/commit_or_bounce_v2.py
+dags/__pycache__/
+
+# dbt venv (not needed in repo)
+dbt_venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+.venv/
