@@ -1,9 +1,3 @@
-# ─────────────────────────────────────────────────────────────
-# dbt_commands.py
-# Reusable dbt command builder for the BeejanRide ELT pipeline.
-# All dbt tasks in the DAG use this to stay consistent.
-# ─────────────────────────────────────────────────────────────
-
 DBT_PROJECT_DIR  = "/opt/airflow/dbt_project"
 DBT_PROFILES_DIR = "/opt/airflow/dbt_profiles"
 DBT_TARGET       = "prod"
