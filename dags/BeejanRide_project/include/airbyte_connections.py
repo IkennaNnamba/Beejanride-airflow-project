@@ -1,17 +1,3 @@
-# ─────────────────────────────────────────────────────────────
-# airbyte_connections.py
-# Airbyte connection IDs for each raw table sync.
-#
-# How to update:
-# 1. Open Airbyte UI → Connections
-# 2. Click each connection → copy the UUID from the URL
-# 3. Go to Airflow UI → Admin → Variables
-# 4. Set each variable key with the real UUID as value
-#
-# Until real IDs are set, placeholders are used and
-# Airbyte tasks will fail gracefully without breaking the DAG.
-# ─────────────────────────────────────────────────────────────
-
 from airflow.models import Variable
 
 # The Airflow Connection ID pointing to your Airbyte instance
